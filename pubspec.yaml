@@ -1,0 +1,31 @@
+name: smart_khata
+description: Smart Digital Khata and small business management app.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.6.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  shared_preferences: ^2.5.3
+  intl: ^0.19.0
+  uuid: ^4.5.1
+  path_provider: ^2.1.5
+  pdf: ^3.11.3
+  printing: ^5.14.0
+  image_picker: ^1.1.2
+  mobile_scanner: ^6.0.10
+
+  # Add Firebase packages when cloud sync/auth is enabled:
+  # firebase_core: ^3.15.2
+  # firebase_auth: ^5.6.2
+  # cloud_firestore: ^5.6.12
+  # firebase_storage: ^12.4.10
+
+flutter:
+  uses-material-design: true
